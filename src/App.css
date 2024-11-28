@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.music-icon {
+  font-size: 3rem;
+  color: #6c63ff;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.example-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.input-group {
+  flex: 1 1 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.inputs input {
+  width: 100%;
+  max-width: 80px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-selected {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6c63ff;
+  margin: 20px 0;
+}
+
+.circulo-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.circulo-container img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.circulo-container p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
