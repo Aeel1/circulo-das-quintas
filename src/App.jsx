@@ -59,7 +59,7 @@ const App = () => {
         </button>
       </div>
       <p className="example-text">
-        Exemplo de preenchimento: C, C#, Cb
+        Exemplo de preenchimento: C (Dó), C# (Dó Sustenido), CB (Dó Bemol)
       </p>
       {note && (
         <>
